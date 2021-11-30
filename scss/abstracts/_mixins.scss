@@ -1,0 +1,15 @@
+@mixin flex($j-content: space-between, $a-items: center) {
+  display: flex;
+  justify-content: $j-content;
+  align-items: $a-items;
+}
+
+@mixin p-smaller {
+  font-size: 0.9375rem;
+  line-height: 1.1875rem;
+}
+
+@mixin p-small {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
